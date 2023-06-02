@@ -1,0 +1,37 @@
+/* import de fontes  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Oxanium', cursive;*/
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;
+}
+
+main{
+    
+    display: inline-block;/*poderia ser só inline?*/
+/*  margin-top: 2%; depois que colocou o padding, não precisa mais*/
+    padding: 15px;
+    /*position: relative;*/
+}
+
+.pokedex{
+    width: 100%;/*a img vai ocupar 100% do espaço disponivel no container que está (a div main). Logo se a main aumentar (ao colocar mais coisa dentro dela por exemplo) a imagem vai aumentar junto a nao ser que definamos um max-width justamente pra não passar do tamanho x*/
+    max-width: 425px;
+}
+
+.pokemon_image{
+    /*left: 0*/
+    position: absolute;
+    bottom: 65%;
+    left: 50%;
+
+    
+    
+}
