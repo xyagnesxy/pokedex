@@ -18,20 +18,23 @@ main{
     display: inline-block;/*poderia ser só inline?*/
 /*  margin-top: 2%; depois que colocou o padding, não precisa mais*/
     padding: 15px;
-    /*position: relative;*/
+    position: relative;/*sem esse, bagunça, sei la pq*/
 }
 
 .pokedex{
     width: 100%;/*a img vai ocupar 100% do espaço disponivel no container que está (a div main). Logo se a main aumentar (ao colocar mais coisa dentro dela por exemplo) a imagem vai aumentar junto a nao ser que definamos um max-width justamente pra não passar do tamanho x*/
-    max-width: 425px;
+    max-width: 425px;/*que é o a largura original da foto*/
 }
 
 .pokemon_image{
     /*left: 0*/
+    border: solid 1px;
     position: absolute;
-    bottom: 65%;
-    left: 50%;
-
+    top: inherit;
+    margin-top: 55%;
+    left: 45%;
+    transform: translate(-53%, -65%);/*não saquei esse transform*/
+    height: 5%;
     
     
 }
