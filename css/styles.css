@@ -28,13 +28,13 @@ main{
 
 .pokemon_image{
     /*left: 0*/
-    border: solid 1px;
+    
     position: absolute;
     top: inherit;
     margin-top: 55%;
     left: 45%;
-    transform: translate(-53%, -65%);/*não saquei esse transform*/
-    height: 5%;
+    transform: translate(-42%, -63%);/*não saquei esse transform*/
+    height: 20%;
        
 }
 
